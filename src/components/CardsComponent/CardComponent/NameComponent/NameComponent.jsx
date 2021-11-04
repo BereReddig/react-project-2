@@ -1,6 +1,8 @@
+import './NameComponent.css';
+
 const nameComponent = ({ name }) => {
     return (
-        <div>{name}</div>
+        <div className='nameComponent'>{name}</div>
     );
 }
 
