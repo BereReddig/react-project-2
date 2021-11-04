@@ -7,8 +7,6 @@ const ProfileComponent = () => {
         <div className="profile-component-container">
             <UserProfile/>
             <ButtonsComponent />
-            <ButtonsComponent />
-            <ButtonsComponent />
         </div>
     )
 }
