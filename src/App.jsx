@@ -1,12 +1,10 @@
-import { useState } from 'react'
+import ProfileComponent from './components/ProfileComponent/ProfileComponent';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      Time tracker
+      <ProfileComponent />
     </div>
   )
 }
