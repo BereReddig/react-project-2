@@ -6,7 +6,7 @@ const ButtonComponent = ({ time, isSelected }) => {
         <button
             className="ButtonComponent"
             onClick={() => setCurrentTime(time)}
-            style={{ color: isSelected ? '#ffffff' : '#5847eb'}}
+            // style={{ color: isSelected ? '#ffffff' : '#5847eb'}}
         >
             <span>{time}</span>
         </button>

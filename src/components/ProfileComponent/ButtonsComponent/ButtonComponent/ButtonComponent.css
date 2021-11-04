@@ -1,0 +1,17 @@
+button {
+    all: unset;
+    margin: 10px 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #5847eb;
+}
+
+button:focus {
+    color: #ffffff;
+}
+
+button:hover {
+    transform: scale(1.05);
+    color: #fff;
+}
+
