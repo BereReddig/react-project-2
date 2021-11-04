@@ -1,0 +1,104 @@
+[
+    {
+      "name": "Work",
+      "times": {
+        "daily": {
+          "currentMonth": "5hrs",
+          "lastMonth": "7hrs"
+        },
+        "weekly": {
+          "currentMonth": "32hrs",
+          "lastMonth": "36hrs"
+        },
+        "monthly": {
+          "currentMonth": "103hrs",
+          "lastMonth": "128hrs"
+        }
+      }
+    },
+    {
+      "name": "Play",
+      "times": {
+        "daily": {
+          "currentMonth": "1hrs",
+          "lastMonth": "2hrs"
+        },
+        "weekly": {
+          "currentMonth": "10hrs",
+          "lastMonth": "8hrs"
+        },
+        "monthly": {
+          "currentMonth": "23hrs",
+          "lastMonth": "29hrs"
+        }
+      }
+    },
+    {
+      "name": "Study",
+      "times": {
+        "daily": {
+          "currentMonth": "0hrs",
+          "lastMonth": "1hrs"
+        },
+        "weekly": {
+          "currentMonth": "4hrs",
+          "lastMonth": "7hrs"
+        },
+        "monthly": {
+          "currentMonth": "13hrs",
+          "lastMonth": "19hrs"
+        }
+      }
+    },
+    {
+      "name": "Exercise",
+      "times": {
+        "daily": {
+          "currentMonth": "1hrs",
+          "lastMonth": "1hrs"
+        },
+        "weekly": {
+          "currentMonth": "4hrs",
+          "lastMonth": "5hrs"
+        },
+        "monthly": {
+          "currentMonth": "11hrs",
+          "lastMonth": "18hrs"
+        }
+      }
+    },
+    {
+      "name": "Social",
+      "times": {
+        "daily": {
+          "currentMonth": "1hrs",
+          "lastMonth": "36hrs"
+        },
+        "weekly": {
+          "currentMonth": "5hrs",
+          "lastMonth": "10hrs"
+        },
+        "monthly": {
+          "currentMonth": "21hrs",
+          "lastMonth": "23hrs"
+        }
+      }
+    },
+    {
+      "name": "Self Care",
+      "times": {
+        "daily": {
+          "currentMonth": "0hrs",
+          "lastMonth": "1hrs"
+        },
+        "weekly": {
+          "currentMonth": "2hrs",
+          "lastMonth": "2hrs"
+        },
+        "monthly": {
+          "currentMonth": "7hrs",
+          "lastMonth": "11hrs"
+        }
+      }
+    }
+  ]
