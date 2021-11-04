@@ -6,14 +6,14 @@ const ButtonsComponent = ({ currentTime}) => {
     const times = ['Daily', 'Weekly', 'Monthly'];
     return (
         <div className="ButtonsComponent">
-            {times.map((title) => {
-                <ButtonsComponent 
+            {times.map((title) => (
+                <ButtonComponent 
                     key={title}
                     time={title}
                     setCurrentInfo={() => sendData(title)}
                     isSelected={currentTime == title}
                 />
-            })}
+            ))}
         </div>
     );
 }
