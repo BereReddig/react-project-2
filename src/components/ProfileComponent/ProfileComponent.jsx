@@ -1,14 +1,14 @@
 import UserProfile from "./UserProfile/UserProfile";
-import ButtonComponent from "./ButtonsComponent/ButtonComponent/ButtonComponent";
+import ButtonsComponent from "./ButtonsComponent/ButtonsComponent";
 import './profileComponent.css';
 
 const ProfileComponent = () => {
     return (
         <div className="profile-component-container">
             <UserProfile/>
-            <ButtonComponent />
-            <ButtonComponent />
-            <ButtonComponent />
+            <ButtonsComponent />
+            <ButtonsComponent />
+            <ButtonsComponent />
         </div>
     )
 }
