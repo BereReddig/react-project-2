@@ -1,19 +1,17 @@
+import ImageComponent from './ImageComponent/ImageComponent';
 import NameComponent from './NameComponent/NameComponent';
 import HoursComponent from "./HoursComponent/HoursComponent";
 import ellipsis from '../../../assets/images/icon-ellipsis.svg';
 import './CardComponent.css';
 
-const CardComponent = ({className, timeName, time, frame}) => {
+const CardComponent = ({timeName, imageSrc, time, frame}) => {
     return (
-        <div className={className}>
+        <div className="card">
+            <ImageComponent src={imageSrc} alt={timeName}/>
             <div className="cardInfo">
-                <div className='title-container'>
-                    <NameComponent name={timeName}/>
-                    <img className='ellipsis' src={ellipsis} alt="ellipsis"/>
-                </div>
-                <div className='card-details'>
-                    <HoursComponent time={time} name={frame}/>
-                </div>
+                <NameComponent name={timeName}/>
+                <img src={ellipsis} alt="ellipsis"/>
+                <HoursComponent time={time} name={frame}/>
             </div>
         </div>
     );
