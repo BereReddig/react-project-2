@@ -8,7 +8,6 @@ import CardsComponent from '../components/CardsComponent/CardsComponent';
 import timeData from '../time-data.json';
 
 const TimeTrack = () => {
-    let title = 'Day';
     const [data, setData] = useState(timeData[0].cards);
     const [currentTimeInfo, setCurrentTimeInfo] = useState("Daily");
 
@@ -19,13 +18,10 @@ const TimeTrack = () => {
     function setTimeInfo() {
         if (currentTimeInfo == "Daily") {
             setData(timeData[0].cards);
-            title = 'Day';
         } else if (currentTimeInfo == "Weekly") {
             setData(timeData[1].cards);
-            title = 'Week';
         } else {
             setData(timeData[2].cards);
-            title = 'Month';
         }
     }
 
@@ -37,7 +33,7 @@ const TimeTrack = () => {
         <div className="App">
             <div className="flex-layout">
                 <ProfileComponent sendDataToParent={handleTimeInfoChange} currentTimeInfo={currentTimeInfo} />
-                <CardsComponent cardInfo={data} title={title} />
+                <CardsComponent cardInfo={data} title={currentTimeInfo} />
             </div>
         </div>
     );

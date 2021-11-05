@@ -5,6 +5,11 @@ const CardsComponent = ({cardInfo, title}) => {
     const cardsTop = [cardInfo.work, cardInfo.play, cardInfo.study];
     const cardsBottom = [cardInfo.exercise, cardInfo.social, cardInfo.selfCare];
 
+    let timeFrame;
+    if(title == 'Daily') timeFrame = 'Day';
+    else if(title == 'Weekly') timeFrame = 'Week';
+    else timeFrame = 'Month';
+
     return (
         <div className="cardComponentWrapper">
             <div>
@@ -13,7 +18,7 @@ const CardsComponent = ({cardInfo, title}) => {
                         className={'card small-card ' + card.name}
                         timeName= {card.name}
                         time={{current: card.current, last: card.last}}
-                        frame={title}
+                        frame={timeFrame}
                     />
                 )}
             </div>
@@ -23,7 +28,7 @@ const CardsComponent = ({cardInfo, title}) => {
                         className={'card small-card ' + card.name}
                         timeName= {card.name}
                         time={{current: card.current, last: card.last}}
-                        frame={title}
+                        frame={timeFrame}
                     />
                 )}
             </div>
