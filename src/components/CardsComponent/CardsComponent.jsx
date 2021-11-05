@@ -8,7 +8,6 @@ import study from "../../assets/images/icon-study.svg";
 import work from "../../assets/images/icon-work.svg";
 
 const CardsComponent = ({cardInfo, title}) => {
-    
     const imagesTop = [work, play, study];
     const imagesBottom = [exercise, social, selfCare];
     const cardsTop = [cardInfo.work, cardInfo.play, cardInfo.study];
@@ -17,24 +16,24 @@ const CardsComponent = ({cardInfo, title}) => {
     return (
         <div className="cardComponentWrapper">
             <div>
-                {cardsTop.map((card, index) => {
+                {cardsTop.map((card, index) => 
                     <CardComponent
                         timeName= {card.name}
                         imageSrc={imagesTop[index]}
-                        time={card.current, card.last}
+                        time={{current: card.current, last: card.last}}
                         frame={title}
                     />
-                })}
+                )}
             </div>
             <div>
-                {cardsBottom.map((card, index) => {
+                {cardsBottom.map((card, index) => 
                     <CardComponent
                         timeName= {card.name}
                         imageSrc={imagesBottom[index]}
-                        time={card.current, card.last}
+                        time={{current: card.current, last: card.last}}
                         frame={title}
                     />
-                })}
+                )}
             </div>
         </div>
   );

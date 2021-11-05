@@ -5,7 +5,6 @@ import ellipsis from '../../../assets/images/icon-ellipsis.svg';
 import './CardComponent.css';
 
 const CardComponent = ({timeName, imageSrc, time, frame}) => {
-
     return (
         <div className="card">
             <ImageComponent src={imageSrc} alt={timeName}/>
