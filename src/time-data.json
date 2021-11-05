@@ -1,101 +1,104 @@
 [
     {
-      "name": "Work",
-      "times": {
-        "daily": {
+      "time": "Daily",
+      "cards": {
+        "work":{
+          "name":"Work",
           "current": "5hrs",
           "last": "7hrs"
         },
-        "weekly": {
+        "play":{
+          "name":"Play",
+          "current": "1hrs",
+          "last": "2hrs"
+        },
+        "study":{
+          "name": "Study",
+          "current": "0hrs",
+          "last": "1hrs"
+        },
+        "exercise":{
+          "name": "Exercise",
+          "current": "1hrs",
+          "last": "1hrs"
+        },
+        "social":{
+          "name":"Social",
+          "current": "1hrs",
+          "last": "36hrs"
+        },
+        "selfCare":{
+          "name": "Self care",
+          "current": "0hrs",
+          "last": "1hrs"
+        }
+      }
+    },
+    {
+      "time": "Weekly",
+      "cards": {
+        "work":{
+          "name":"Work",
           "current": "32hrs",
           "last": "36hrs"
         },
-        "monthly": {
-          "current": "103hrs",
-          "last": "128hrs"
-        }
-      }
-    },
-    {
-      "name": "Play",
-      "times": {
-        "daily": {
-          "current": "1hrs",
-          "last": "2hrs"
-        },
-        "weekly": {
+        "play":{
+          "name":"Play",
           "current": "10hrs",
           "last": "8hrs"
         },
-        "monthly": {
-          "current": "23hrs",
-          "last": "29hrs"
-        }
-      }
-    },
-    {
-      "name": "Study",
-      "times": {
-        "daily": {
-          "current": "0hrs",
-          "last": "1hrs"
-        },
-        "weekly": {
+        "study":{
+          "name": "Study",
           "current": "4hrs",
           "last": "7hrs"
         },
-        "monthly": {
-          "current": "13hrs",
-          "last": "19hrs"
-        }
-      }
-    },
-    {
-      "name": "Exercise",
-      "times": {
-        "daily": {
-          "current": "1hrs",
-          "last": "1hrs"
-        },
-        "weekly": {
+        "exercise":{
+          "name": "Exercise",
           "current": "4hrs",
           "last": "5hrs"
         },
-        "monthly": {
-          "current": "11hrs",
-          "last": "18hrs"
-        }
-      }
-    },
-    {
-      "name": "Social",
-      "times": {
-        "daily": {
-          "current": "1hrs",
-          "last": "36hrs"
-        },
-        "weekly": {
+        "social":{
+          "name":"Social",
           "current": "5hrs",
           "last": "10hrs"
         },
-        "monthly": {
-          "current": "21hrs",
-          "last": "23hrs"
+        "selfCare":{
+          "name": "Self care",
+          "current": "2hrs",
+          "last": "2hrs"
         }
       }
     },
     {
-      "name": "Self Care",
-      "times": {
-        "daily": {
-          "current": "0hrs",
-          "last": "1hrs"
+      "time": "Monthly",
+      "cards": {
+        "work":{
+          "name":"Work",
+          "current": "103hrs",
+          "last": "128hrs"
         },
-        "weekly": {
-          "current": "2hrs",
-          "last": "2hrs"
+        "play":{
+          "name":"Play",
+          "current": "23hrs",
+          "last": "29hrs"
         },
-        "monthly": {
+        "study":{
+          "name": "Study",
+          "current": "13hrs",
+          "last": "19hrs"
+        },
+        "exercise":{
+          "name": "Exercise",
+          "current": "11hrs",
+          "last": "18hrs"
+        },
+        "social":{
+          "name":"Social",
+          "current": "21hrs",
+          "last": "23hrs"
+        },
+        "selfCare":{
+          "name": "Self care",
           "current": "7hrs",
           "last": "11hrs"
         }
