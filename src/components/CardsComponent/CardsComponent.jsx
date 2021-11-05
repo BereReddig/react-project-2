@@ -8,6 +8,7 @@ import study from "../../assets/images/icon-study.svg";
 import work from "../../assets/images/icon-work.svg";
 
 const CardsComponent = ({cardInfo, title}) => {
+    
     const imagesTop = [work, play, study];
     const imagesBottom = [exercise, social, selfCare];
     const cardsTop = [cardInfo.work, cardInfo.play, cardInfo.study];
