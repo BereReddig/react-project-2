@@ -1,0 +1,12 @@
+.currentTime, .lastTime{
+    margin: 10px 0;
+}
+
+.currentTime{
+    font-size: 2.5em;
+}
+
+.lastTime{
+    color: #988ffb;
+    font-size: 0.9em;
+}
