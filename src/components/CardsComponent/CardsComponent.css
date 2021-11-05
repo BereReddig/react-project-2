@@ -1,8 +1,8 @@
 .cardComponentWrapper{
     display: flex;
     flex-direction: column;
-    width: 60%;
-    row-gap: 20px;
+    width: 69%;
+    row-gap: 12%;
     column-gap: 20px;
 }
 

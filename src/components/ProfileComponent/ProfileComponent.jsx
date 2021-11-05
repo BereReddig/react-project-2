@@ -4,9 +4,11 @@ import './profileComponent.css';
 
 const ProfileComponent = ({ sendDataToParent }) => {
     return (
-        <div className="profile-component-container">
-            <UserProfile/>
-            <ButtonsComponent sendDataToParent={sendDataToParent} />
+        <div className="card profile">
+            <div className='profile-container'>
+                <UserProfile/>
+                <ButtonsComponent sendDataToParent={sendDataToParent} />
+            </div>
         </div>
     )
 }

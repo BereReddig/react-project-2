@@ -6,7 +6,7 @@ const HoursComponent = ({ time, name }) => {
 
   return (
     <>
-      <h1 className="currentTime">{current}</h1>
+      <p className="currentTime">{current}</p>
       <p className="lastTime">
         Last {name} - {last}
       </p>

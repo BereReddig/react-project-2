@@ -1,5 +1,6 @@
 .ButtonsComponent {
     margin: 20px 0;
+    list-style: none;
     display: flex;
     flex-direction: column;
 }

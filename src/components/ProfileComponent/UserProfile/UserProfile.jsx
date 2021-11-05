@@ -4,15 +4,9 @@ import './userProfile.css'
 const UserProfile = () => {
     return (
         <div className="user-container">
-            <div>
-                <img className="profile-picture" src={profilePicture} alt="profile image" />
-            </div>
-            <div>
-                <h4>Report for</h4>
-            </div>
-            <div>
-                <h2>Jeremy Robson</h2>
-            </div>
+            <img className="profile-picture" src={profilePicture} alt="profile image" />
+            <h4 className='report-text'>Report for</h4>
+            <h2 className='profile-name'>Jeremy Robson</h2>
         </div>
     )
 }

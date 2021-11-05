@@ -1,6 +1,14 @@
-.profile-component-container {
-    background-color: #1C1F4A;
+.card {
     border-radius: 20px;
-    height: 400px;
-    width: 240px;
+    color: #fff;
+}
+.profile {
+    grid-row: 1/span 2;
+    background-color: #1c1f4a;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
