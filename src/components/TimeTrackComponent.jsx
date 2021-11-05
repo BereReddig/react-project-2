@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 
 import ProfileComponent from '../components/ProfileComponent/ProfileComponent';
+// import CardsComponent from '../components/CardsComponent/CardsComponent';
+
+import timeData from '../time-data.json';
 
 const TimeTrack = () => {
     const [data, setData] = useState("1");
@@ -12,11 +15,14 @@ const TimeTrack = () => {
 
     function setTimeInfo() {
         if (currentTimeInfo == "Daily") {
-            setData("1");
+            setData(timeData[0].cards);
+            console.log(data)
         } else if (currentTimeInfo == "Weekly") {
-            setData("2");
+            setData(timeData[1].cards);
+            console.log(data)
         } else {
-            setData("3");
+            setData(timeData[2].cards);
+            console.log(data)
         }
     }
 
