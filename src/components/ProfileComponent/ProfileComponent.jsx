@@ -2,11 +2,11 @@ import UserProfile from "./UserProfile/UserProfile";
 import ButtonsComponent from "./ButtonsComponent/ButtonsComponent";
 import './profileComponent.css';
 
-const ProfileComponent = () => {
+const ProfileComponent = ({ sendDataToParent }) => {
     return (
         <div className="profile-component-container">
             <UserProfile/>
-            <ButtonsComponent />
+            <ButtonsComponent sendDataToParent={sendDataToParent} />
         </div>
     )
 }

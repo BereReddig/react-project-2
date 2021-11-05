@@ -1,11 +1,9 @@
-import ProfileComponent from './components/ProfileComponent/ProfileComponent';
+import TimeTrack from './components/TimeTrackComponent'
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <ProfileComponent />
-    </div>
+    <TimeTrack />
   )
 }
 

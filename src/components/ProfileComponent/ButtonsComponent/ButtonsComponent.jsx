@@ -2,7 +2,7 @@ import './ButtonsComponent.css';
 
 import ButtonComponent from './ButtonComponent/ButtonComponent';
 
-const ButtonsComponent = ({ currentTime}) => {
+const ButtonsComponent = ({ sendDataToParent }) => {
     const times = ['Daily', 'Weekly', 'Monthly'];
     return (
         <div className="ButtonsComponent">
@@ -10,8 +10,7 @@ const ButtonsComponent = ({ currentTime}) => {
                 <ButtonComponent 
                     key={title}
                     time={title}
-                    setCurrentInfo={() => sendData(title)}
-                    isSelected={currentTime == title}
+                    setCurrentTime={() => sendDataToParent(title)}
                 />
             ))}
         </div>
