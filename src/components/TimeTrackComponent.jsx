@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+import './TimeTrackComponent.css';
+
 import ProfileComponent from '../components/ProfileComponent/ProfileComponent';
 import CardsComponent from '../components/CardsComponent/CardsComponent';
 
@@ -33,8 +35,10 @@ const TimeTrack = () => {
 
     return (
         <div className="App">
-            <ProfileComponent sendDataToParent={handleTimeInfoChange} currentTimeInfo={currentTimeInfo} />
-            <CardsComponent cardInfo={data} title={title} />
+            <div className="flex-layout">
+                <ProfileComponent sendDataToParent={handleTimeInfoChange} currentTimeInfo={currentTimeInfo} />
+                <CardsComponent cardInfo={data} title={title} />
+            </div>
         </div>
     );
 }

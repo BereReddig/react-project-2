@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 .user-container {
-    background-color:#5847EB;
+    background-color: #5847EB;
     border-radius: 20px;
-    padding: 20px;
-    width: 200px;
-    /* width: 100%; para poner luego en el contenedor*/
+    width: 100%;
+    height: 10%;
 }
 .profile-picture {
     width: 75px;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #fff;
     border-radius: 50%;
+    margin: 30px 20px;
 }
-h4, h2 {
-    font-family: 'Rubik', sans-serif;
+
+.report-text {
+    color: #988ffb;
+    margin-left: 20px;
+    font-size: .8rem;
 }
-h4 {
-    color: #988FFA;
-}
-h2 {
-    color: #FFFFFF;
+
+.profile-name {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 10px 20px 50px;
 }
