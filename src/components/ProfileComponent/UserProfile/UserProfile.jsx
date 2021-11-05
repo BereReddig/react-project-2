@@ -1,4 +1,4 @@
-import profilePicture from '../../../assets/images/image-jeremy.71cd41f1.png'
+import profilePicture from '../../../assets/images/image-jeremy.png'
 import './userProfile.css'
 
 const UserProfile = () => {

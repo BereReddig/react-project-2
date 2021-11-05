@@ -1,3 +1,4 @@
+import ProfileComponent from './components/ProfileComponent/ProfileComponent';
 import TimeTrack from './components/TimeTrackComponent'
 import './App.css'
 

@@ -1,0 +1,12 @@
+.cardComponentWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.cardComponentWrapper > div:first-child, .cardComponentWrapper > div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
