@@ -16,13 +16,10 @@ const TimeTrack = () => {
     function setTimeInfo() {
         if (currentTimeInfo == "Daily") {
             setData(timeData[0].cards);
-            console.log(data)
         } else if (currentTimeInfo == "Weekly") {
             setData(timeData[1].cards);
-            console.log(data)
         } else {
             setData(timeData[2].cards);
-            console.log(data)
         }
     }
 
