@@ -1,12 +1,31 @@
-.cardComponentWrapper{
-    display: flex;
-    flex-direction: column;
-    width: 69%;
-    row-gap: 12%;
-    column-gap: 20px;
+@media (min-width: 801px) { 
+    .cardComponentWrapper{
+        display: flex;
+        flex-direction: column;
+        width: 69%;
+        row-gap: 15%;
+        column-gap: 20px;
+    }
+    .cardComponentWrapper > div:first-child, .cardComponentWrapper > div:last-child{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
-.cardComponentWrapper > div:first-child, .cardComponentWrapper > div:last-child{
-    display: flex;
-    justify-content: space-evenly;
+@media (max-width: 800px) {
+    .cardComponentWrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .cardComponentWrapper > div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .small-card {
+        margin-top: 20px;
+    }
+    
 }

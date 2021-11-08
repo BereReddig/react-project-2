@@ -1,14 +1,36 @@
-.card {
-    border-radius: 20px;
-    color: #fff;
-}
-.profile {
-    grid-row: 1/span 2;
-    background-color: #1c1f4a;
-}
 
-.profile-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+
+@media (max-width: 800px) {
+    .card {
+        border-radius: 20px;
+        color: #fff;
+    }
+    .profile {
+        grid-row: 1/span 2;
+        background-color: #1c1f4a;
+        /* max-width: 260px; */
+    }
+    
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 801px) {
+    .card {
+        border-radius: 20px;
+        color: #fff;
+    }
+    .profile {
+        grid-row: 1/span 2;
+        background-color: #1c1f4a;
+        max-width: 260px;
+    }
+    
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
