@@ -1,4 +1,12 @@
-.flex-layout {
-    display: flex;
-    justify-content: space-between;
+
+@media (max-width: 800px) {
+    .flex-layout {
+        display: contents;
+        flex-direction: column;
+    }
+}
+@media (min-width: 801px) {
+    .flex-layout {
+        display: flex;
+    }
 }

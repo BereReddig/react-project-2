@@ -1,39 +1,60 @@
-.card{
-    border-radius: 20px;
-    width: 30%;
+@media (max-width: 800px) {
+    .title-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .card-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .ellipsis {
+        height: 5px;
+        width: 20px;
+    }
+    .cardInfo{
+        background-color: #1c1f4a;
+        margin-top: 50px;
+        border-radius: 16px;
+    }
+    
 }
-
-.cardInfo{
-    background-color: #1c1f4a;
-    border-radius: 16px;
-    width: 100%;
-    height: 80%;
-    overflow: hidden;
+@media (min-width: 801px) {
+    .title-container {
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-details {
+        margin: 20px;
+    }
+    .small-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 120%;
+        max-width: 260px;
+    }
+    .card{
+        border-radius: 20px;
+        width: 30%;
+    }
+    .ellipsis {
+        height: 5px;
+        width: 20px;
+        margin-left: 10px;
+    }
+    .cardInfo{
+        background-color: #1c1f4a;
+        border-radius: 16px;
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+    }
 }
-
-.small-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 120%;
-}
-
-.title-container {
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ellipsis {
-    height: 5px;
-    width: 20px;
-    margin-left: 10px;
-}
-
-.card-details {
-    margin: 20px;
-}
-
 .Work {
     background: url(../../../assets/images/icon-work.svg) no-repeat right 10px top -12px, #ff8c66;
 }
